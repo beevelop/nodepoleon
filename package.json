@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node lib/server.js",
-    "init": "npm i && bower i",
+    "init": "npm i",
+    "postinstall": "bower install",
     "clean": "rm -rf node_modules static/libs"
   },
   "repository": {
