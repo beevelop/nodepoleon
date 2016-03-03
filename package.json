@@ -1,0 +1,40 @@
+{
+  "name": "nodepoleon",
+  "version": "0.0.1",
+  "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
+  "main": "lib/nodepoleon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server.js",
+    "init": "npm i && bower i",
+    "clean": "rm -rf node_modules static/libs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beevelop/nodepoleon.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": {
+    "name": "Maik Hummel",
+    "email": "m@ikhummel.com",
+    "url": "https://beevelop.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beevelop/nodepoleon/issues"
+  },
+  "homepage": "https://github.com/beevelop/nodepoleon#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "hashids": "^1.0.2",
+    "jade": "^1.11.0",
+    "save": "^2.2.1",
+    "valid-url": "^1.0.9"
+  },
+  "engines": ">0.12",
+  "private": true
+}

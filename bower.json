@@ -1,0 +1,19 @@
+{
+  "name": "nodepoleon-static",
+  "authors": [
+    "Maik Hummel <m@ikhummel.com>"
+  ],
+  "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "license": "MIT",
+  "homepage": "https://beevelop.com",
+  "private": true,
+  "dependencies": {
+    "tacit": "^0.5.6"
+  }
+}
