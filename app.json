@@ -1,0 +1,7 @@
+{
+  "name": "nodepoleon",
+  "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
+  "repository": "https://github.com/beevelop/nodepoleon",
+  "keywords": ["node", "url", "shortener"],
+  "image": "heroku/nodejs"
+}
