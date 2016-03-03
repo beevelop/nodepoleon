@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node lib/server.js",
     "init": "npm i",
-    "postinstall": "bower install",
+    "postinstall": "./node_modules/.bin/bower install",
     "clean": "rm -rf node_modules static/libs"
   },
   "repository": {
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/beevelop/nodepoleon#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "bower": "^1.7.7",
     "express": "^4.13.4",
     "hashids": "^1.0.2",
     "jade": "^1.11.0",
