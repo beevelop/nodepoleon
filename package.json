@@ -35,6 +35,9 @@
     "save": "^2.2.1",
     "valid-url": "^1.0.9"
   },
-  "engines": ">0.12",
+  "engines": {
+    "node": "4.x",
+    "npm": "3.x"
+  },
   "private": true
 }
