@@ -1,6 +1,6 @@
 {
   "name": "nodepoleon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
   "main": "lib/nodepoleon.js",
   "scripts": {
