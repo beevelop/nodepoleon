@@ -22,3 +22,4 @@ ratings:
   - "**.rb"
 exclude_paths:
   - static/**/*
+  - test.js
