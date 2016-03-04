@@ -4,7 +4,7 @@
   "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
   "main": "lib/nodepoleon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/mocha test.js",
     "start": "node lib/server.js",
     "init": "npm i",
     "postinstall": "./node_modules/.bin/bower install",
@@ -41,5 +41,10 @@
     "node": "4.x",
     "npm": "3.x"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "mocha": "^2.4.5"
+  }
 }
