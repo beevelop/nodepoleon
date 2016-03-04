@@ -4,12 +4,13 @@
   "description": "Caution: Nodepoleon might give your URLs complexes and makes A̶m̶e̶r̶i̶c̶a̶ links great again.",
   "main": "lib/nodepoleon.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test.js",
-    "start": "node lib/server.js",
     "init": "npm i",
     "postinstall": "./node_modules/.bin/bower install",
-    "clean": "rm -rf node_modules static/libs",
-    "coverage": "istanbul cover _mocha -- -R spec"
+    "start": "node lib/server.js",
+    
+    "test": "./node_modules/.bin/mocha test.js",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- -R spec",
+    "clean": "rm -rf node_modules static/libs"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   }
 }
