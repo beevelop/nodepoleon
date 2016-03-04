@@ -1,8 +1,12 @@
 language: node_js
 node_js:
   - "4.1"
+addons:
+  code_climate:
+    repo_token: e3696512ba3b93d56ba1afe84ce16e158068933802860d33ca9d11865593edb2
 script:
   - npm run init
   - npm test
   - npm run coverage
-  
+after_script:
+  - codeclimate-test-reporter < coverage/lcov.info
