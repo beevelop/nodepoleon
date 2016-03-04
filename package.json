@@ -8,7 +8,8 @@
     "start": "node lib/server.js",
     "init": "npm i",
     "postinstall": "./node_modules/.bin/bower install",
-    "clean": "rm -rf node_modules static/libs"
+    "clean": "rm -rf node_modules static/libs",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "repository": {
     "type": "git",
