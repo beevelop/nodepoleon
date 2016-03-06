@@ -2,7 +2,7 @@
 [![Gemnasium](https://shields.beevelop.com/gemnasium/beevelop/nodepoleon.svg?style=flat-square)](https://gemnasium.com/beevelop/nodepoleon)
 [![Code Climate](https://shields.beevelop.com/codeclimate/coverage/github/beevelop/nodepoleon.svg?style=flat-square)](https://codeclimate.com/github/beevelop/nodepoleon)
 [![GitHub tag](https://shields.beevelop.com/github/tag/beevelop/nodepoleon.svg?style=flat-square)](https://github.com/beevelop/nodepoleon/releases)
-![Maintenance](https://shields.beevelop.com/maintenance/yes/2016.svg?style=flat-square)
+[![js-standard-style](https://shields.beevelop.com/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 ![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
