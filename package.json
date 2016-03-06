@@ -7,8 +7,7 @@
     "init": "npm i",
     "postinstall": "./node_modules/.bin/bower install",
     "start": "node lib/server.js",
-    
-    "test": "./node_modules/.bin/mocha test.js",
+    "test": "./node_modules/.bin/mocha --harmony-proxies --compilers js:babel-core/register",
     "coverage": "./node_modules/.bin/istanbul cover _mocha -- -R spec",
     "clean": "rm -rf node_modules static/libs"
   },
@@ -43,11 +42,23 @@
     "node": "4.x",
     "npm": "3.x"
   },
+  "babel": {
+    "plugins": [
+      "transform-async-to-generator",
+      "transform-es2015-destructuring",
+      "transform-es2015-parameters"
+    ]
+  },
   "private": true,
   "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
+    "babel-plugin-transform-es2015-parameters": "^6.6.5",
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "standard": "^6.0.7"
   }
 }
