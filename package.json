@@ -59,6 +59,6 @@
     "chai-as-promised": "^5.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
-    "standard": "^8.0.0"
+    "standard": "^8.1.0"
   }
 }
